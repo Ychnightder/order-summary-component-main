@@ -7,12 +7,10 @@
     font-size: 16px;
 }
 body{
-    background-color: #e0e8ff;
+    background: url(./images/pattern-background-desktop.svg) top repeat-x ,#E1E9FF;
     overflow: hidden;
 }
-.bg{
-    width: 1920px;
-}
+
 
 .main-box{
     background-color: #fff;
@@ -163,25 +161,23 @@ body{
 .attribution{
     position: absolute;
     bottom: 0;
+    left: 40%;
     color: #000000;
     margin: 0 0 60px 65px;
 }
 @media screen and (max-width:375px){
 
     body{
-        background-color: #e0e8ff;
+        background: url(./images/pattern-background-mobile.svg) no-repeat#e0e8ff;
         overflow: hidden;
     }
 
-    .bg{
-        width: 375px;
-    }
     .main-box{
         width: 300px;
         height: 550px;
     }
     .main-box .pay{
-        width: 200px;
+        width: 280px;
     }
     .btn-end .check{
         width: 270px;
@@ -189,7 +185,7 @@ body{
   .attribution{
     position: absolute;
     color: #000000;
-
+    display: none;
 
 }
 } 
